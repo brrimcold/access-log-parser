@@ -12,7 +12,7 @@ public class Main {
             boolean isDirectory = file.isDirectory();
             if (!fileExist || isDirectory){
                 System.out.println("Был указан неверный путь к файлу или путь к папке");
-                continue;
+                continue; // непонятно зачем нужно принудительно начинать новую иттерацию цикла, но в описании 2 очка
             }
             else{
                 System.out.println("Путь указан верно");
